@@ -1,0 +1,5 @@
+com\omnishop\common\utils\exception\ErrorResponse$ErrorResponseBuilder.class
+com\omnishop\common\utils\exception\BusinessException.class
+com\omnishop\common\utils\exception\GlobalExceptionHandler.class
+com\omnishop\common\utils\exception\ErrorCode.class
+com\omnishop\common\utils\exception\ErrorResponse.class
