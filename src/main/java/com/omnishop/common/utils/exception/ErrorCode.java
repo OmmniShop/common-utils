@@ -11,7 +11,11 @@ public enum ErrorCode {
     AREA_NOT_FOUND("ARE-404", "Área no encontrada", HttpStatus.NOT_FOUND),
     CARGO_NOT_FOUND("CAR-404", "Cargo no encontrado", HttpStatus.NOT_FOUND),
     VALIDATION_ERROR("GEN-400", "Validación fallida", HttpStatus.BAD_REQUEST),
-    INTERNAL_ERROR("GEN-500", "Error interno del servidor", HttpStatus.INTERNAL_SERVER_ERROR);
+    INTERNAL_ERROR("GEN-500", "Error interno del servidor", HttpStatus.INTERNAL_SERVER_ERROR),
+    ROLE_NOT_FOUND("ROL-404", "Rol no encontrado", HttpStatus.NOT_FOUND),
+    ROLE_CODE_NOT_FOUND("ROL-404", "El codigo de rol no existe", HttpStatus.NOT_FOUND),
+    ROL_CODE_ALREADY_EXISTS("ROL-409", "El codigo de rol ya existe", HttpStatus.CONFLICT),
+    ROLE_NAME_ALREADY_EXISTS("ROL-409", "El nombre de rol ya existe", HttpStatus.CONFLICT);
 
     private final String code;
     private final String message;
